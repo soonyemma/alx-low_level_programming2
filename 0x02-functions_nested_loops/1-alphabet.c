@@ -15,6 +15,6 @@ for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 _putchar(alphabet);
 }
 
--putchar('\n');
+_putchar('\n');
 
 }
