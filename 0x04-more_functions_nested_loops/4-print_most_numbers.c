@@ -1,23 +1,22 @@
 #include "main.h"
 /**
- * print_most_numbers - print numbers
+ * print_most_numbers - entry point
  *
- * Return: Always 0.
+ * Description: Prints the numbers with _putchar
+ *
+ * Return: void
  */
+
 void print_most_numbers(void)
 {
 
-int i;
+int number;
 
-i = 0;
-while (i < 10)
+for (number = '0'; number <= '9' number++)
 {
-if (i != 2 && i != 4)
-{
-_putchar (i + '0');
+if (number == '2' || number == '4');
+else
+_putchar(number);
 }
-i++;
-}
-
-_putchar ('\n");
+_putchar('\n');
 }
