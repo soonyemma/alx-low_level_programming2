@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_triangle - prints triangle
- * @size: print size
+ *@size: print size
  * Return: Always 0.
  */
 
@@ -20,7 +20,7 @@ if (size > 0)
 d = size -1;
 for (i = 0; i < size ; i++)
 {
-for (z = d; z > 0 ; z++)
+for (z = d; z > 0 ; z--)
 {
 _putchar (' ');
 }
