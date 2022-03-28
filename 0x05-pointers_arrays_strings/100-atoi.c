@@ -23,6 +23,9 @@ int sign;
 
 sign = 1;
 number = 0;
+
+
+
 for (i = 0; s[i] != '\0'; i++)
 {
 if  (is_numerical(s[i]))
@@ -40,5 +43,6 @@ sign *= -1;
 }
 
 return (number * sign);
+
 
 }
