@@ -5,6 +5,7 @@
  * Return: returns char
  */
 
+
 char *string_toupper(char *str)
 {
 int i;
@@ -14,6 +15,7 @@ for (i = o; str[i] != '\0'; i++)
 if (str[i] >= 'a' && str[i] <= 'z')
 {
 str[i] = str[i] - 32;
+}
 }
 
 return (str);
