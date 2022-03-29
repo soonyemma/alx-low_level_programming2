@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_memcpy - copies memory area
+ * _memcpy - copies memory area
  * @dest: destination memory area
  * @src: memory area to copy from
  * @n: number of bytes to copy
@@ -17,5 +17,5 @@ for (i = 0; i < n; i++)
 dest[i] = src[i];
 }
 
-return (dest0;
+return (dest);
 }
